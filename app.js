@@ -7,8 +7,6 @@ const app = express()
 
 //middlewares
 
-
-
 app.use(
   cors()
 );

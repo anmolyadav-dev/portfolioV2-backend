@@ -20,7 +20,7 @@ export default function rateLimit(req , res , next){
         })
     }
     record.count++;
-    console.log(record);
+    // console.log(record);
     requests.set(ip,record)
     next();
 }
